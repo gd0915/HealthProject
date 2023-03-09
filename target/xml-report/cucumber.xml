@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="22.038" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US_014 Doctor should see all test results." name="US_014_TC_001 Physician should be able to see all test details" time="21.818">
+<system-out><![CDATA[
+Given user-physician is on "medunna_url" page...............................passed
+When user-physician click on user icon......................................passed
+And user-physician click on Sign In option..................................passed
+And user-physician enter "DoctorTom" in username input......................passed
+And user-physician enter "33221Tt5%*" in password input.....................passed
+And user-physician click on Remember Me check box...........................passed
+And user-physician click on Sign In submit button...........................passed
+And user-physician click on MyPages.........................................passed
+And user-physician click on My Appointments.................................passed
+And user-physician click on Edit button.....................................passed
+Then verify Show Test Results button is displayed on the site...............passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
